@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "RU - Statistics",
+    "description": "This course teaches you the basics of statistics"
+  },
+  {
+    "id": 2,
+    "name": "Assessment Course",
+    "description": "This course teaches you the basics"
+  },
+  {
+    "id": 3,
+    "name": "TUD - Math",
+    "description": "This course teaches you the basics of Math"
+  },
+  {
+    "id": 4,
+    "name": "EUR - Statistics",
+    "description": "This course teaches you the basics of statistics"
+  }
+]
+

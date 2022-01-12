@@ -1,0 +1,22 @@
+<div class="container">
+  <header class="jumbotron">
+    <h3>
+      Course List
+    </h3>
+  </header>
+  <input  type="text">
+  <table class="table table-striped border mt-1">
+    <thead>
+    <tr>
+      <th *ngFor="let col of tableHeaders"
+          (click)="sort(col.propertyName,booleanValue)">{{col.propertyName}}</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let course of courses " (click)="goToCourse(course.id)">
+      <td>{{course.id}}</td>
+      <td>{{course.name}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
